@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Store_Sale_MovilPhone.Models.Factura>
+
+@{
+    ViewBag.Title = "ShowToFactura";
+}
+
+<h2>ShowToFactura</h2>
+lo q mando a la vista es => @ViewBag.error
+
+<table>
+    <tr>
+        <td><b>Marca</b></td>
+        <td><b>Modelo</b></td>
+        <td><b>ClienteID</b></td>
+        <td><b>Precio Unidad</b></td>
+    </tr>
+    @*<li>@Model</li>*@
+
+
+@foreach(var f in @Model){
+    <tr>
+        <td>
+            <li>@f.cart.movilPhone.Marca</li>
+        </td>
+        <td>
+            <li>@f.cart.movilPhone.Modelo</li>
+        </td>
+        <td>
+            <li>@f.ClienteID</li>
+        </td>
+        <td>
+            <li>@f.cart.Cantidad</li>
+        </td>
+        <td>
+            <li>@f.cart.PrecioUnidad</li>
+        </td>
+    </tr>
+}
+</table>

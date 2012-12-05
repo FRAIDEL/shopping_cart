@@ -1,0 +1,36 @@
+﻿@model Store_Sale_MovilPhone.Complementos.InformeShoppingCart
+
+@{
+    ViewBag.Title = "Lista Compra";
+}
+
+<h2>Elementos Adquiridos ..!</h2>
+
+<table>
+    <tr>
+        <td align=center><b>Marca</b></td>
+        <td align=center><b>Modelo</b></td>
+        <td align=center><b>Precio Punto de Venta</b></td>
+        <td align=center><b>Cantidad</b></td>
+        <td align=center><b>Precio Unidad($)</b></td>
+        <td align=center><b></b></td>
+    </tr>
+@foreach(var items in @Model.CartItems){    
+    <tr>
+       <td align=center>@items.movilPhone.Marca.Nombre</td>
+       <td align=center>@items.movilPhone.Modelo</td>
+       <td align=center>@items.movilPhone.PuntoVenta</td>
+       <td align=center>@items.Cantidad</td>
+       <td align=center>@items.movilPhone.PrecioUnidad</td>
+       <td>@Html.ActionLink("Eliminar de Lista", "RemoveToItems", new { id = @items.MovilPhoneID }, "")</td>
+    </tr>
+}
+    <tr>
+    <td><b>Precio Total</b></td>
+        <td align=center><u>@Model.CartTotal</u></td>
+    </tr>
+</table>
+
+<br />
+<br />
+@Html.ActionLink("Facturar", "SaveFactura", new { Id = 1 })

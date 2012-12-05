@@ -1,0 +1,21 @@
+﻿@model Store_Sale_MovilPhone.Models.Marca
+
+@{
+    ViewBag.Title = "showPhoneForMarca";
+}
+
+<h2>Lista de Celulares <b>@ViewBag.nameMarca</b> <br /></h2>
+
+<ul>
+@foreach (var movil in Model.MovilPhone_Marca)
+{
+    <i>Modelo : </i><br />
+    <b>@movil.Modelo</b><br />
+    <i>Precio Unidad : </i><br />
+    <u><b>$</b> <b>@movil.PrecioUnidad</b><br /></u>
+    <br />
+    @Html.ActionLink("Comprar..!", "AddToCart", "ShoppingCart", new { id = @movil.MovilPhoneID }, "")
+    <br />
+    <br />
+}
+</ul>

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Store_Sale_MovilPhone.Models.MovilPhone>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Marca
+        </th>
+        <th>
+            Modelo
+        </th>
+        <th>
+            FechaVenta
+        </th>
+        <th>
+            PuntoVenta
+        </th>
+        <th>
+            TiempoGarantia
+        </th>
+        <th>
+            PrecioUnidad
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td align=center>
+            @Html.DisplayFor(modelItem => item.Marca.Nombre)
+        </td>
+        <td align=center>
+            @Html.DisplayFor(modelItem => item.Modelo)
+        </td>
+        <td align=center>
+            @Html.DisplayFor(modelItem => item.FechaVenta)
+        </td>
+        <td align=center>
+            @Html.DisplayFor(modelItem => item.PuntoVenta)
+        </td>
+        <td align=center>
+            @Html.DisplayFor(modelItem => item.TiempoGarantia)
+        </td>
+        <td align=center>
+            @Html.DisplayFor(modelItem => item.PrecioUnidad)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MovilPhoneID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MovilPhoneID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MovilPhoneID })
+        </td>
+    </tr>
+}
+
+</table>

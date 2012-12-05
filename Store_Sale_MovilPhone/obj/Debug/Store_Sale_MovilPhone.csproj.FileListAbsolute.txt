@@ -1,0 +1,14 @@
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\Store_Sale_MovilPhone.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\Store_Sale_MovilPhone.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\EntityFramework.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\EntityFramework.xml
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone\obj\Debug\Store_Sale_MovilPhone.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone\obj\Debug\Store_Sale_MovilPhone.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\Store_Sale_MovilPhone.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\Store_Sale_MovilPhone.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\EntityFramework.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\EntityFramework.xml
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\obj\Debug\Store_Sale_MovilPhone.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\obj\Debug\Store_Sale_MovilPhone.pdb

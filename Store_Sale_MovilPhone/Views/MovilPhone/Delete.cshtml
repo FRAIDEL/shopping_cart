@@ -1,0 +1,48 @@
+﻿@model Store_Sale_MovilPhone.Models.MovilPhone
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>MovilPhone</legend>
+
+    <div class="display-label">Marca</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Marca.Nombre)
+    </div>
+
+    <div class="display-label">Modelo</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Modelo)
+    </div>
+
+    <div class="display-label">FechaVenta</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FechaVenta)
+    </div>
+
+    <div class="display-label">PuntoVenta</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PuntoVenta)
+    </div>
+
+    <div class="display-label">TiempoGarantia</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TiempoGarantia)
+    </div>
+
+    <div class="display-label">PrecioUnidad</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrecioUnidad)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

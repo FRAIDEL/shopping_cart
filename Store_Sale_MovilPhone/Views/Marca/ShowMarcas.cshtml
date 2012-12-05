@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Store_Sale_MovilPhone.Models.Marca>
+
+@{
+    ViewBag.Title = "Marcas de Telefonos Moviles";
+}
+
+<h2>Diferentes Marcas de Telefonos Moviles</h2>
+
+<lo>
+@foreach(var marca in Model){
+    <i><li>@Html.ActionLink(@marca.Nombre.ToUpper(), "showPhoneForMarca", new { nombreMarca = marca.Nombre })</li></i><br />
+}
+</lo>
+

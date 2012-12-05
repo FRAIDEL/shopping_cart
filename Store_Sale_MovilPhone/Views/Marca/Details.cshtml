@@ -1,0 +1,25 @@
+﻿@model Store_Sale_MovilPhone.Models.Marca
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Marca</legend>
+
+    <div class="display-label">Nombre</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nombre)
+    </div>
+
+    <div class="display-label">DetallesMarca</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DetallesMarca)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.MarcaID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

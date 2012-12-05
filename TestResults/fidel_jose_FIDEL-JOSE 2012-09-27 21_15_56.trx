@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2d748de6-5b3f-45ad-9b5c-ff27b3f9637e" name="fidel_jose@FIDEL-JOSE 2012-09-27 21:15:56" runUser="FIDEL-JOSE\fidel_jose" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="e29e139c-d698-4cc6-9add-8250a8db1380">
+    <Deployment runDeploymentRoot="fidel_jose_FIDEL-JOSE 2012-09-27 21_15_56">
+      <DeploymentItem filename="C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone\bin\Store_Sale_MovilPhone.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-27T21:15:56.2343750-05:00" queuing="2012-09-27T21:16:01.9375000-05:00" start="2012-09-27T21:16:02.6093750-05:00" finish="2012-09-27T21:16:05.9843750-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\documents and settings\fidel_jose\escritorio\projects\store_sale_movilphone\store_sale_movilphone.tests\bin\debug\store_sale_movilphone.tests.dll" id="90f6e3db-1133-063b-7141-756024d3abc5">
+      <Execution id="2fe6e562-b89e-4dc4-b23d-861fc1261fae" />
+      <TestMethod codeBase="C:/Documents and Settings/fidel_jose/Escritorio/PROJECTS/Store_Sale_MovilPhone/Store_Sale_MovilPhone.Tests/bin/Debug/Store_Sale_MovilPhone.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Store_Sale_MovilPhone.Tests.Controllers.HomeControllerTest, Store_Sale_MovilPhone.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\documents and settings\fidel_jose\escritorio\projects\store_sale_movilphone\store_sale_movilphone.tests\bin\debug\store_sale_movilphone.tests.dll" id="4d1b2244-d4b2-97d2-08db-4cd6cb70dbed">
+      <Execution id="8a0d69c8-b285-42a9-aa0b-cebcff4896a6" />
+      <TestMethod codeBase="C:/Documents and Settings/fidel_jose/Escritorio/PROJECTS/Store_Sale_MovilPhone/Store_Sale_MovilPhone.Tests/bin/Debug/Store_Sale_MovilPhone.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Store_Sale_MovilPhone.Tests.Controllers.HomeControllerTest, Store_Sale_MovilPhone.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4d1b2244-d4b2-97d2-08db-4cd6cb70dbed" executionId="8a0d69c8-b285-42a9-aa0b-cebcff4896a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90f6e3db-1133-063b-7141-756024d3abc5" executionId="2fe6e562-b89e-4dc4-b23d-861fc1261fae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8a0d69c8-b285-42a9-aa0b-cebcff4896a6" testId="4d1b2244-d4b2-97d2-08db-4cd6cb70dbed" testName="About" computerName="FIDEL-JOSE" duration="00:00:00.1827167" startTime="2012-09-27T21:16:03.1093750-05:00" endTime="2012-09-27T21:16:05.1093750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a0d69c8-b285-42a9-aa0b-cebcff4896a6">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fe6e562-b89e-4dc4-b23d-861fc1261fae" testId="90f6e3db-1133-063b-7141-756024d3abc5" testName="Index" computerName="FIDEL-JOSE" duration="00:00:00.2352033" startTime="2012-09-27T21:16:05.1093750-05:00" endTime="2012-09-27T21:16:05.4218750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fe6e562-b89e-4dc4-b23d-861fc1261fae">
+    </UnitTestResult>
+  </Results>
+</TestRun>

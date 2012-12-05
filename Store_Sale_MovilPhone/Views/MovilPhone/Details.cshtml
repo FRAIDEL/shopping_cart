@@ -1,0 +1,45 @@
+﻿@model Store_Sale_MovilPhone.Models.MovilPhone
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>MovilPhone</legend>
+
+    <div class="display-label">Marca</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Marca.Nombre)
+    </div>
+
+    <div class="display-label">Fecha De Venta</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.FechaVenta)
+    </div>
+
+    <div class="display-label">Modelo</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Modelo)
+    </div>
+
+    <div class="display-label">PuntoVenta</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PuntoVenta)
+    </div>
+
+    <div class="display-label">TiempoGarantia</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TiempoGarantia)
+    </div>
+
+    <div class="display-label">PrecioUnidad</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PrecioUnidad)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.MovilPhoneID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

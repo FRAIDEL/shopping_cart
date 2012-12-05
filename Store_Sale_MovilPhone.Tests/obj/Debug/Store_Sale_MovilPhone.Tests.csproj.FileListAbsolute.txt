@@ -1,0 +1,20 @@
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.Tests.dll.config
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.Tests.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.Tests.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\EntityFramework.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\obj\Debug\Store_Sale_MovilPhone.Tests.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Copia de Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\obj\Debug\Store_Sale_MovilPhone.Tests.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.Tests.dll.config
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.Tests.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.Tests.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\EntityFramework.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\Store_Sale_MovilPhone.pdb
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\bin\Debug\EntityFramework.xml
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\obj\Debug\Store_Sale_MovilPhone.Tests.dll
+C:\Documents and Settings\fidel_jose\Escritorio\PROJECTS\Store_Sale_MovilPhone\Store_Sale_MovilPhone.Tests\obj\Debug\Store_Sale_MovilPhone.Tests.pdb
